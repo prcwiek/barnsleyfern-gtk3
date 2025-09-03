@@ -1,0 +1,28 @@
+name = "barnsleyfern-gtk3"
+version = "0.2.0"
+license = "GPL-3"
+author = "Pawel Cwiek"
+maintainer = "prc.altodato@gmail.com"
+copyright = "Copyright 2025, Pawel Cwiek"
+
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+module-naming = false
+link = ["gtk-3", "gdk-3", "gdk_pixbuf-2.0", "cairo", "glib-2.0", "gobject-2.0", "pango-1.0", "pangocairo-1.0"]
+
+[install]
+library = false
+test = false
+[fortran]
+implicit-typing = true
+implicit-external = true
+source-form = "default"
+
+[dependencies]
+gtk-fortran = { git = "https://github.com/vmagnin/gtk-fortran.git", branch = "gtk3" }
+
+
+
+
