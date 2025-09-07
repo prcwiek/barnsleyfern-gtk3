@@ -2,7 +2,6 @@ name = "barnsleyfern-gtk3"
 version = "0.2.0"
 license = "GPL-3"
 author = "Pawel Cwiek"
-maintainer = "prc.altodato@gmail.com"
 copyright = "Copyright 2025, Pawel Cwiek"
 
 [build]
